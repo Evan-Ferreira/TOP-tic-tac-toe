@@ -1,0 +1,14 @@
+.main-body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ttt-main-cont {
+    width: 20rem;
+    height: 20rem;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
