@@ -1,4 +1,4 @@
-const gameLogic = function () {
+const gameLogic = (function () {
     const gameBoard = [
         ['', '', ''],
         ['', '', ''],
@@ -96,7 +96,7 @@ const gameLogic = function () {
     document.querySelector('.game-msg').textContent =
         "Game initialized, it's " + playerTurn + "'s turn";
     initializeGame();
-};
+})();
 
 const playGames = function () {
     const reset = document.querySelector('.reset-btn');
