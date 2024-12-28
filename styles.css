@@ -10,8 +10,10 @@ html {
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 4rem;
 }
 
 .ttt-main-cont {
@@ -23,4 +25,23 @@ html {
 
 .grid-child {
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.game-msg {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.reset-btn {
+    width: 10rem;
+    height: 3rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
 }
