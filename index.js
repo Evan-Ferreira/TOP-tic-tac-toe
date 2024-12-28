@@ -1,7 +1,13 @@
-const displayMaster = (function () {
-    const updateDisplay = (x, y) => {
-        if (x < 0 || y < 0 || x > 2 || y > 2) {
-            console.log('Invalid input');
+const gameLogic = function () {
+    const initializeGame = () => {
+        const gameBoard = document.querySelector('.ttt-main-cont').childNodes;
+        for (square of gameBoard) {
+            square.addEventListener('click', () => {
+                console.log('clicked');
+            });
         }
     };
-})();
+    initializeGame();
+};
+
+gameLogic();

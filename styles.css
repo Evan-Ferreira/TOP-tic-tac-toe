@@ -1,3 +1,11 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
 .main-body {
     width: 100vw;
     height: 100vh;
@@ -11,4 +19,8 @@
     height: 20rem;
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.grid-child {
+    border: 1px solid black;
 }
